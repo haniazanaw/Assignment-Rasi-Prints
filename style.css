@@ -151,40 +151,18 @@ body {
   height: 82%;
 }
 
-.company {
-  display: flex;
+.garment-industry{
+  display:flex;
+  justify-content:space-between;
+  margin:5%;
 }
-
-#aditya1 {
-  position: relative;
-}
-
-#arvind {
-  width: 40%;
-  position: relative;
-
-}
-
-#raymond {
-  width: 50%;
-}
-
-.aditya_pic {
-  display: flex;
-
-}
-
-.arvind_pic {
-  display: flex;
-}
-
-.arvind-picdetails {
-  position: relative;
-
-}
-
-.raymond_pic {
-  display: flex;
+.aditya,.arvind,.raymond{
+  display:flex;
+ 
+  img{
+    width:100px;
+    height:100px;
+  }
 }
 
 .praise {
@@ -204,8 +182,6 @@ body {
   display: flex;
 
 }
-
-.quality img {}
 
 .service {
 
