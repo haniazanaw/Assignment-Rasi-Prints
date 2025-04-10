@@ -1,0 +1,320 @@
+body{
+  margin: auto 0;
+  margin-top: -1.7%;
+}
+.upper{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: #82BF79;
+  font-size: xx-large;
+}
+
+.information{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.information a{
+  text-decoration: none;
+  color: white;
+}
+#contact-us{
+  background-color:gray;
+  width:10%;
+  height: 5vh;
+  border: none;
+  color: white;
+  border-radius: 5%;
+}
+.rasi-prints{
+  max-width: 100%;
+  background-image: url(image/pillow.webp);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+.rasi-prints h1{
+  font-size: 450%;
+}
+
+.header{
+  text-align: center;
+  font-size: 150%;
+}
+#hr{
+  color: black;
+}
+.company h2{
+  font-size:250%;
+}
+.timeless_artistry {
+  margin-top: 10%;
+  display: flex;
+  margin-left: 5%;
+  gap: 10%;
+}
+.timeless_artistry img {
+  width: 100%;
+  height: 90%;
+}
+.more_about {
+  margin-top: 30px;
+  padding-left: 5%;
+  padding-top: 5%;
+  width: 20cm;
+  font-size: x-large;
+  padding-right:2% ;
+  line-height: 1.8;
+}
+#timeless-style {
+  font-size: 35px;
+}
+.assurances{
+  display: flex;
+  justify-content: space-between;
+}
+.assurances img{
+  width: 60px;
+  height: 70px;
+}
+.quality{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+.guaranty{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.shipping{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sustainable{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.printing-techniques{
+  text-align: center;
+  font-size: x-large;
+}
+.printing-techniques h2{
+  font-size: 250%;
+}
+.printing-techniques p{
+  font-size: 100%;
+}
+.innovations h2{
+  font-size: 200%;
+}
+.innovations p{
+  font-size: 100%;
+}
+.innovations{
+  gap: 1px;
+  display: flex;
+}
+.innovations img{
+  width: 80%;
+  height: 82%;
+}
+.company{
+  display: flex;
+}
+#aditya1{
+  position: relative;
+}
+#arvind{
+  width: 40%;
+  position: relative;
+ 
+}
+#raymond{
+  width: 50%;
+}
+.aditya_pic
+{
+  display: flex;
+
+}
+.arvind_pic
+{
+  display: flex;
+}
+.arvind-picdetails{
+  position: relative;
+
+}
+.raymond_pic{
+  display: flex;
+}
+.praise {
+  text-align: center;
+
+}
+.praise h2{
+  font-size: 380%;
+}
+.praise p{
+  font-size: x-large;
+}
+.quality{
+  display: flex;
+
+}
+.quality img{
+
+}
+.service{
+
+  font-size: x-large;
+}
+.service h2{
+  font-size: 150%;
+  font-weight: 900;
+
+}
+.icons{
+  display: flex;
+  gap: 70px;
+ margin-left: 10%;
+}
+.arvind-store img{
+  width: 90px;
+  height: 90px;
+}
+.gap img{
+  width: 90px;
+  height: 90px;
+}
+.myntra img{
+  width: 90px;
+  height: 90px;
+}
+.puma img {
+width: 90px;
+  height: 90px;
+}
+.aditya-birla img{
+  width: 90px;
+  height: 90px;
+}
+.converse img{
+  width: 90px;
+  height: 90px;
+}
+.markalar img{
+  width: 90px;
+  height: 90px;
+}
+.works
+{
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  gap: 50px;
+}
+.works img{
+  width: 30%;
+}
+
+.best-works{
+  margin-top: 5%;
+  text-align: center;
+
+}
+.best-works h2{
+  font-size: 350%;
+}
+.best-works p{
+  font-size: x-large;
+}
+
+.woman {
+  margin-top:2% ;
+}
+.woman img{
+  width: 95%;
+  border-radius:5% ;
+}
+.reach-out{
+  margin-top:3 ;
+  text-align: center;
+
+}
+.reach-out h2{
+  font-size: 350%;
+}
+.reach-out p{
+  font-size: x-large;
+}
+#map_img{
+  margin-top: 10%;
+width: 95%;
+height: 900px;
+position: relative;
+}
+.contact-us{
+  position: absolute;
+  background-color: white;
+   top: 750%;
+  left: 20%;
+  padding: 2% 9% 1% 5%; 
+
+}
+.contact-us h1{
+  font-size: 350%;
+  font-weight: 900;
+}
+.contact-us h3{
+  font-size: 250%;
+}
+.contact-us p{
+  font-size: 100%;
+}
+footer {
+  background-color: #20263b;
+  max-width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  li:not(:first-child) {
+      color: gray;
+  }
+  
+}
+.upper-footer ul li { list-style-type:none; }
+footer div {
+  flex: 1;
+}
+
+.upper-footer {
+  display: flex;
+  font-size: larger;
+}
+
+.upper-footer img {
+  width: 70%;
+  height: 60%;
+}
+
+
+
+
+
+
+
+        
+
