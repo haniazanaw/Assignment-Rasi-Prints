@@ -98,7 +98,9 @@ body {
 .quality {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   gap: 10px;
+  margin:5%;
 
 }
 
@@ -120,7 +122,7 @@ body {
   gap: 10px;
 }
 
-.printing-techniques {
+.printing-techniques,.assistance {
   text-align: center;
   font-size: x-large;
 }
@@ -197,7 +199,7 @@ body {
 .icons {
   display: flex;
   gap: 70px;
-  margin-left: 10%;
+  justify-content: space-evenly;
 }
 
 .arvind-store img {
@@ -283,19 +285,12 @@ body {
   font-size: x-large;
 }
 
-#map_img {
-  margin-top: 10%;
-  width: 95%;
-  height: 900px;
-  position: relative;
-}
 
 .contact-us {
-  position: absolute;
   background-color: white;
-  top: 675%;
-  left: 20%;
   padding: 2% 9% 1% 5%;
+  width:40%;
+
 
 }
 
@@ -346,9 +341,13 @@ footer div {
   height: 60%;
 }
 
-
-
-
+.map{
+  background-image: url('image/map.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8%;
+  }
+  
 
 
 
@@ -479,10 +478,7 @@ footer div {
     gap: 10px;
   }
   
-  .printing-techniques {
-    text-align: center;
-    font-size: x-large;
-  }
+  
   
   .printing-techniques h2 {
     font-size: 250%;
@@ -510,42 +506,6 @@ footer div {
     height: 82%;
   }
   
-  .company {
-    display: flex;
-  }
-  
-  #aditya1 {
-    position: relative;
-  }
-  
-  #arvind {
-    width: 40%;
-    position: relative;
-  
-  }
-  
-  #raymond {
-    width: 50%;
-  }
-  
-  .aditya_pic {
-    display: flex;
-  
-  }
-  
-  .arvind_pic {
-    display: flex;
-  }
-  
-  .arvind-picdetails {
-    position: relative;
-  
-  }
-  
-  .raymond_pic {
-    display: flex;
-  }
-  
   .praise {
     text-align: center;
   
@@ -564,7 +524,7 @@ footer div {
   
   }
   
-  .quality img {}
+  
   
   .service {
   
@@ -666,12 +626,6 @@ footer div {
     font-size: x-large;
   }
   
-  #map_img {
-    margin-top: 10%;
-    width: 95%;
-    height: 900px;
-    position: relative;
-  }
   
   .contact-us {
     position: absolute;
